@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CommerceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+    android:layout_width= "match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_default"  >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name"
+            app:helperText="@string/helper_required"
+            style= "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

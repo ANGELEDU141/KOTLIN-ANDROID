@@ -2,6 +2,6 @@
     <string name="app_name">Commerce</string>
     <string name="description_img_commerce">my commerce</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hint_name">Nombre de comercio</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="helper_required">Required field</string>
 </resources>
